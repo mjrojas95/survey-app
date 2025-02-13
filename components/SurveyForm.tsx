@@ -13,8 +13,6 @@ interface FormData {
     latePaymentInterest: string;
 }
   
-interface Response extends FormData {}
-
 const SurveyForm = () => {
   const [showThankYou, setShowThankYou] = useState<boolean>(false);
   const [showResponses, setShowResponses] = useState<boolean>(false);
